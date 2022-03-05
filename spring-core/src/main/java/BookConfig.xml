@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+	
+	<!-- Dependency Injection using Constructor --> 
+	
+	<bean id="book1" class="com.bel.training.springcore.Book">
+	
+	<!-- Constructor arg is used for DI using constructor -->
+	<constructor-arg value="101" type="int"></constructor-arg>
+	<constructor-arg value="Ajaykumar Singh"></constructor-arg>
+	<constructor-arg value="587311" type="Long"></constructor-arg>
+	</bean>
+</beans>

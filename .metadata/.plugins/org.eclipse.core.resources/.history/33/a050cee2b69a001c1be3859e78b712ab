@@ -1,0 +1,19 @@
+package com.bel.training.ims.rest;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.bel.training.ims.model.DealerAddress;
+import com.bel.training.ims.repository.UserRepository;
+
+public class LoginRestController {
+
+	private UserRepository urepo;
+	
+	@GetMapping("/dealers")  
+	public List<DealerAddress> getAllCustomers() {  
+		return  urepo.fetchDealerInnerJoin();  
+	}  
+
+}

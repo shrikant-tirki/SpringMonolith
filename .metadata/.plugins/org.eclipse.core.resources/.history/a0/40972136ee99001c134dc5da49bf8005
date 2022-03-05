@@ -1,0 +1,6 @@
+package com.bel.training.controller;
+
+@RestController
+public class HelloWorldController {
+
+}

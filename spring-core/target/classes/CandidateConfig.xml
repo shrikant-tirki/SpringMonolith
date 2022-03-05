@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+<!-- Dependency Injection using Constructor --> 
+	
+	<bean id="address" class="com.bel.training.springcore.Address">
+	
+	<!-- Constructor arg is used for DI using constructor -->
+	<constructor-arg value="Bengaluru"></constructor-arg>
+	<constructor-arg value="Karnataka"></constructor-arg>
+	<constructor-arg value="India"></constructor-arg>
+	<constructor-arg value="587311" type="Long"></constructor-arg>	
+	</bean>
+	
+	
+	
+	<bean id="cd1" class="com.bel.training.springcore.Candidate">
+	
+	<!-- Constructor arg is used for DI using constructor -->
+	<constructor-arg value="101" type="int"></constructor-arg>
+	<constructor-arg value="Kishorekumar Naru"></constructor-arg>
+	<constructor-arg>
+		<ref bean="address"></ref>  <!-- referring address bean -->
+	</constructor-arg>
+	</bean>
+
+</beans>

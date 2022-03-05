@@ -1,0 +1,10 @@
+package com.bel.training.ims.rest;
+
+public class LoginRestController {
+
+	@GetMapping("/dealers")  
+	public List<DealerAddress> getAllCustomers() {  
+		return  urepo.fetchDealerInnerJoin();  
+	}  
+
+}

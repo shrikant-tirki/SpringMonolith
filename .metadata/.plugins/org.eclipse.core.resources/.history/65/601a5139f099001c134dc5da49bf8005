@@ -1,0 +1,9 @@
+package com.bel.training.model;
+
+public class Employee {
+
+	Integer id;
+	String firstName, lastName, email;
+	
+	
+}

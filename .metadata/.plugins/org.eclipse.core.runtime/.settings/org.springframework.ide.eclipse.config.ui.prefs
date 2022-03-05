@@ -1,0 +1,8 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/spring-core/src/main/Candidate.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring-core/src/main/java/Candidate.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring-core/src/main/java/CandidateConfig.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring-core/src/main/java/DeveloperConfig.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring-mvc/src/main/webapp/WEB-INF/spring-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring-mvc/src/main/webapp/spring-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring-web/src/main/webapp/WEB-INF/spring-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+eclipse.preferences.version=1

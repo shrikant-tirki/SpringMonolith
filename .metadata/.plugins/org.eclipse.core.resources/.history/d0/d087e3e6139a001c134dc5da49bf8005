@@ -1,0 +1,6 @@
+package com.bel.training.ims.model;
+
+@Entity
+public class product {
+
+}

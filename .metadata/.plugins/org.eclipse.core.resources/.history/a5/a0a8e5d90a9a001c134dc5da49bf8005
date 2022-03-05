@@ -1,0 +1,13 @@
+package com.bel.training.ims.service;
+
+import javax.transaction.Transactional;
+
+import org.springframework.stereotype.Service;
+
+@Service
+@Transactional
+public class LoginService {
+
+	private DealerRepository drepo;
+	
+}

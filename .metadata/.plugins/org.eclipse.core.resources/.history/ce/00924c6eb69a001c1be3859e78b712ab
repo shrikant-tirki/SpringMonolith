@@ -1,0 +1,18 @@
+package com.bel.training.ims.model;
+
+public class DealerAddress {
+
+	private Long id;
+	private String email;
+	private String fname;
+	private String lname;
+	private String password;
+	private Date dob;
+	private String phoneNo;
+
+	private String street;
+	private String city;
+	private int pincode;
+
+
+}
